@@ -24,6 +24,7 @@ function eq_plugin_init() {
 add_action( 'plugins_loaded', 'eq_plugin_init' );
 
 require 'custom-post-types.php';
+require 'custom-taxonomies.php';
 
 
 // Hide the admin bar for users less than Editor

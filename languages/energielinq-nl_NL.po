@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Energielinq Plugin\n"
-"POT-Creation-Date: 2019-03-28 14:00+0100\n"
-"PO-Revision-Date: 2019-03-28 14:03+0100\n"
+"POT-Creation-Date: 2019-04-08 09:48+0200\n"
+"PO-Revision-Date: 2019-04-08 09:53+0200\n"
 "Last-Translator: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language-Team: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language: nl_NL\n"
@@ -130,6 +130,170 @@ msgstr "Expertlijst navigatie"
 #: custom-post-types.php:35
 msgid "Filter experts list"
 msgstr "Filter expertlijst"
+
+#: custom-taxonomies.php:9
+msgctxt "Taxonomy General Name"
+msgid "Audiences"
+msgstr "Doelgroepen"
+
+#: custom-taxonomies.php:10
+msgctxt "Taxonomy Singular Name"
+msgid "Audience"
+msgstr "Doelgroep"
+
+#: custom-taxonomies.php:11
+msgid "Audience"
+msgstr "Doelgroep"
+
+#: custom-taxonomies.php:12
+msgid "All Audiences"
+msgstr "Alle doelgroepen"
+
+#: custom-taxonomies.php:13
+msgid "Parent Audience"
+msgstr "Bovenliggende doelgroep"
+
+#: custom-taxonomies.php:14
+msgid "Parent Audience:"
+msgstr "Bovenliggende doelgroep:"
+
+#: custom-taxonomies.php:15
+msgid "New Audience Name"
+msgstr "Nieuwe doelgroep naam"
+
+#: custom-taxonomies.php:16
+msgid "Add New Audience"
+msgstr "Nieuwe doelgroep toevoegen"
+
+#: custom-taxonomies.php:17
+msgid "Edit Audience"
+msgstr "Doelgroep bewerken"
+
+#: custom-taxonomies.php:18
+msgid "Update Audience"
+msgstr "Doelgroep bijwerken"
+
+#: custom-taxonomies.php:19
+msgid "View Audience"
+msgstr "Bekijk doelgroep"
+
+#: custom-taxonomies.php:20
+msgid "Separate audiences with commas"
+msgstr "Afzonderlijke doelgroepen met komma's"
+
+#: custom-taxonomies.php:21
+msgid "Add or remove audiences"
+msgstr "Doelgroepen toevoegen of verwijderen"
+
+#: custom-taxonomies.php:22 custom-taxonomies.php:72
+msgid "Choose from the most used"
+msgstr "Kies uit de meest gebruikte"
+
+#: custom-taxonomies.php:23
+msgid "Popular Audiences"
+msgstr "Populaire doelgroepen"
+
+#: custom-taxonomies.php:24
+msgid "Search Audiences"
+msgstr "Doorzoek doelgroepen"
+
+#: custom-taxonomies.php:25 custom-taxonomies.php:75
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: custom-taxonomies.php:26
+msgid "No audiences"
+msgstr "Geen doelgroepen"
+
+#: custom-taxonomies.php:27
+msgid "Audiences list"
+msgstr "Lijst met doelgroepen"
+
+#: custom-taxonomies.php:28
+msgid "Audiences list navigation"
+msgstr "Doelgroepen lijst navigatie"
+
+#: custom-taxonomies.php:31
+msgid "audience"
+msgstr "doelgroep"
+
+#: custom-taxonomies.php:59
+msgctxt "Taxonomy General Name"
+msgid "Topics"
+msgstr "Onderwerpen"
+
+#: custom-taxonomies.php:60
+msgctxt "Taxonomy Singular Name"
+msgid "Topic"
+msgstr "Onderwerp"
+
+#: custom-taxonomies.php:61
+msgid "Topic"
+msgstr "Onderwerp"
+
+#: custom-taxonomies.php:62
+msgid "All Topics"
+msgstr "Alle onderwerpen"
+
+#: custom-taxonomies.php:63
+msgid "Parent Topic"
+msgstr "Bovenliggend onderwerp"
+
+#: custom-taxonomies.php:64
+msgid "Parent Topic:"
+msgstr "Bovenliggend onderwerp:"
+
+#: custom-taxonomies.php:65
+msgid "New Topic Name"
+msgstr "Nieuwe onderwerp naam"
+
+#: custom-taxonomies.php:66
+msgid "Add New Topic"
+msgstr "Nieuw onderwerp toevoegen"
+
+#: custom-taxonomies.php:67
+msgid "Edit Topic"
+msgstr "Bewerk onderwerp"
+
+#: custom-taxonomies.php:68
+msgid "Update Topic"
+msgstr "Onderwerp bijwerken"
+
+#: custom-taxonomies.php:69
+msgid "View Topic"
+msgstr "Bekijk onderwerp"
+
+#: custom-taxonomies.php:70
+msgid "Separate topics with commas"
+msgstr "Afzonderlijke onderwerpen met komma's"
+
+#: custom-taxonomies.php:71
+msgid "Add or remove topics"
+msgstr "Onderwerpen toevoegen of verwijderen"
+
+#: custom-taxonomies.php:73
+msgid "Popular Topics"
+msgstr "Populaire onderwerpen"
+
+#: custom-taxonomies.php:74
+msgid "Search Topics"
+msgstr "Doorzoek onderwerpen"
+
+#: custom-taxonomies.php:76
+msgid "No topics"
+msgstr "Geen onderwerpen"
+
+#: custom-taxonomies.php:77
+msgid "Topics list"
+msgstr "Onderwerpenlijst"
+
+#: custom-taxonomies.php:78
+msgid "Topics list navigation"
+msgstr "Onderwerpenlijst navigatie"
+
+#: custom-taxonomies.php:81
+msgid "topic"
+msgstr "onderwerp"
 
 #. Plugin Name of the plugin/theme
 msgid "Energielinq Plugin"

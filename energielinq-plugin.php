@@ -40,7 +40,7 @@ add_action('after_setup_theme', 'remove_admin_bar');
 function eq_remove_menus(){
 	remove_menu_page( 'tools.php' ); //Tools
 }
-add_action( 'admin_menu', 'eq_remove_menus' );
+//add_action( 'admin_menu', 'eq_remove_menus' );
 
 
 // Remove 'New' from admin bar

@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Energielinq Plugin\n"
-"POT-Creation-Date: 2019-04-08 09:48+0200\n"
-"PO-Revision-Date: 2019-04-08 09:53+0200\n"
+"POT-Creation-Date: 2020-02-18 10:18+0100\n"
+"PO-Revision-Date: 2020-02-18 10:23+0100\n"
 "Last-Translator: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language-Team: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -59,9 +59,9 @@ msgstr "Alle experts"
 msgid "Add New Expert"
 msgstr "Nieuwe expert toevoegen"
 
-#: custom-post-types.php:18
+#: custom-post-types.php:18 custom-post-types.php:79
 msgid "Add New"
-msgstr "Nieuwe expert"
+msgstr "Nieuwe toevoegen"
 
 #: custom-post-types.php:19
 msgid "New Expert"
@@ -87,27 +87,27 @@ msgstr "Bekijk experts"
 msgid "Search Expert"
 msgstr "Zoek expert"
 
-#: custom-post-types.php:25
+#: custom-post-types.php:25 custom-post-types.php:86
 msgid "Not found"
 msgstr "Niet gevonden"
 
-#: custom-post-types.php:26
+#: custom-post-types.php:26 custom-post-types.php:87
 msgid "Not found in Trash"
 msgstr "Niet gevonden in de prullenbak"
 
-#: custom-post-types.php:27
+#: custom-post-types.php:27 custom-post-types.php:88
 msgid "Featured Image"
 msgstr "Uitgelichte afbeelding"
 
-#: custom-post-types.php:28
+#: custom-post-types.php:28 custom-post-types.php:89
 msgid "Set featured image"
 msgstr "Uitgelichte afbeelding instellen"
 
-#: custom-post-types.php:29
+#: custom-post-types.php:29 custom-post-types.php:90
 msgid "Remove featured image"
 msgstr "Verwijder uitgelichte afbeelding"
 
-#: custom-post-types.php:30
+#: custom-post-types.php:30 custom-post-types.php:91
 msgid "Use as featured image"
 msgstr "Gebruik als uitgelichte afbeelding"
 
@@ -130,6 +130,88 @@ msgstr "Expertlijst navigatie"
 #: custom-post-types.php:35
 msgid "Filter experts list"
 msgstr "Filter expertlijst"
+
+#: custom-post-types.php:70
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr "Projecten"
+
+#: custom-post-types.php:71
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr "Project"
+
+#: custom-post-types.php:72
+msgid "Projects"
+msgstr "Projecten"
+
+#: custom-post-types.php:73 custom-post-types.php:99
+msgid "Project"
+msgstr "Project"
+
+#: custom-post-types.php:74
+msgid "Project Archives"
+msgstr "Project archief"
+
+#: custom-post-types.php:75
+msgid "Project Attributes"
+msgstr "Project attributen"
+
+#: custom-post-types.php:76
+msgid "Parent Project:"
+msgstr "Bovenliggend project:"
+
+#: custom-post-types.php:77
+msgid "All Projects"
+msgstr "Alle projecten"
+
+#: custom-post-types.php:78
+msgid "Add New Project"
+msgstr "Nieuw project toevoegen"
+
+#: custom-post-types.php:80
+msgid "New Project"
+msgstr "Nieuw project"
+
+#: custom-post-types.php:81
+msgid "Edit Project"
+msgstr "Project bewerken"
+
+#: custom-post-types.php:82
+msgid "Update Project"
+msgstr "Project bijwerken"
+
+#: custom-post-types.php:83
+msgid "View Project"
+msgstr "Bekijk Project"
+
+#: custom-post-types.php:84
+msgid "View Projects"
+msgstr "Bekijk projecten"
+
+#: custom-post-types.php:85
+msgid "Search Project"
+msgstr "Zoek project"
+
+#: custom-post-types.php:92
+msgid "Insert into project"
+msgstr "Toevoegen aan dit project"
+
+#: custom-post-types.php:93
+msgid "Uploaded to this project"
+msgstr "Geüpload bij dit project"
+
+#: custom-post-types.php:94
+msgid "Projects list"
+msgstr "Projectlijst"
+
+#: custom-post-types.php:95
+msgid "Projects list navigation"
+msgstr "Projectlijst navigatie"
+
+#: custom-post-types.php:96
+msgid "Filter projects list"
+msgstr "Filter projecten lijst"
 
 #: custom-taxonomies.php:9
 msgctxt "Taxonomy General Name"

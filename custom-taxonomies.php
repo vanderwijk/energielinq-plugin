@@ -99,3 +99,53 @@ if ( ! function_exists( 'tax_topic' ) ) {
 	add_action( 'init', 'tax_topic', 0 );
 	
 }
+
+if ( ! function_exists( 'tax_dossier' ) ) {
+
+	// Register Custom Taxonomy
+	function tax_dossier() {
+	
+		$labels = array(
+			'name'                       => _x( 'Dossiers', 'Taxonomy General Name', 'energielinq' ),
+			'singular_name'              => _x( 'Dossier', 'Taxonomy Singular Name', 'energielinq' ),
+			'menu_name'                  => __( 'Dossier', 'energielinq' ),
+			'all_items'                  => __( 'All Dossiers', 'energielinq' ),
+			'parent_item'                => __( 'Parent Dossier', 'energielinq' ),
+			'parent_item_colon'          => __( 'Parent Dossier:', 'energielinq' ),
+			'new_item_name'              => __( 'New Dossier Name', 'energielinq' ),
+			'add_new_item'               => __( 'Add New Dossier', 'energielinq' ),
+			'edit_item'                  => __( 'Edit Dossier', 'energielinq' ),
+			'update_item'                => __( 'Update Dossier', 'energielinq' ),
+			'view_item'                  => __( 'View Dossier', 'energielinq' ),
+			'separate_items_with_commas' => __( 'Separate dossiers with commas', 'energielinq' ),
+			'add_or_remove_items'        => __( 'Add or remove dossiers', 'energielinq' ),
+			'choose_from_most_used'      => __( 'Choose from the most used', 'energielinq' ),
+			'popular_items'              => __( 'Popular Dossiers', 'energielinq' ),
+			'search_items'               => __( 'Search Dossiers', 'energielinq' ),
+			'not_found'                  => __( 'Not Found', 'energielinq' ),
+			'no_terms'                   => __( 'No dossiers', 'energielinq' ),
+			'items_list'                 => __( 'Dossiers list', 'energielinq' ),
+			'items_list_navigation'      => __( 'Dossiers list navigation', 'energielinq' ),
+		);
+		$rewrite = array(
+			'slug'                       => __( 'dossier', 'energielinq' ),
+			'with_front'                 => true,
+			'hierarchical'               => false,
+		);
+		$args = array(
+			'labels'                     => $labels,
+			'hierarchical'               => true,
+			'public'                     => true,
+			'show_ui'                    => false,
+			'show_admin_column'          => true,
+			'show_in_nav_menus'          => true,
+			'show_tagcloud'              => true,
+			'rewrite'                    => $rewrite,
+			'show_in_rest'               => true,
+		);
+		register_taxonomy( 'dossier', array( 'post', 'project' ), $args );
+	
+	}
+	add_action( 'init', 'tax_dossier', 0 );
+	
+	}

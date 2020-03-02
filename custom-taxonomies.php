@@ -148,4 +148,4 @@ if ( ! function_exists( 'tax_dossier' ) ) {
 	}
 	add_action( 'init', 'tax_dossier', 0 );
 	
-	}
+}

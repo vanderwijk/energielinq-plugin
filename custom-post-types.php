@@ -121,3 +121,65 @@ if ( ! function_exists('cpt_project') ) {
 	add_action( 'init', 'cpt_project', 0 );
 	
 }
+
+
+if ( ! function_exists('cpt_link') ) {
+
+	// Register Custom Post Type
+	function cpt_link() {
+	
+		$labels = array(
+			'name'                  => _x( 'Links', 'Post Type General Name', 'energielinq' ),
+			'singular_name'         => _x( 'Link', 'Post Type Singular Name', 'energielinq' ),
+			'menu_name'             => __( 'Links', 'energielinq' ),
+			'name_admin_bar'        => __( 'Link', 'energielinq' ),
+			'archives'              => __( 'Link Archives', 'energielinq' ),
+			'attributes'            => __( 'Link Attributes', 'energielinq' ),
+			'parent_item_colon'     => __( 'Parent Link:', 'energielinq' ),
+			'all_items'             => __( 'All Links', 'energielinq' ),
+			'add_new_item'          => __( 'Add New Link', 'energielinq' ),
+			'add_new'               => __( 'Add New', 'energielinq' ),
+			'new_item'              => __( 'New Link', 'energielinq' ),
+			'edit_item'             => __( 'Edit Link', 'energielinq' ),
+			'update_item'           => __( 'Update Link', 'energielinq' ),
+			'view_item'             => __( 'View Link', 'energielinq' ),
+			'view_items'            => __( 'View Links', 'energielinq' ),
+			'search_items'          => __( 'Search Link', 'energielinq' ),
+			'not_found'             => __( 'Not found', 'energielinq' ),
+			'not_found_in_trash'    => __( 'Not found in Trash', 'energielinq' ),
+			'featured_image'        => __( 'Featured Image', 'energielinq' ),
+			'set_featured_image'    => __( 'Set featured image', 'energielinq' ),
+			'remove_featured_image' => __( 'Remove featured image', 'energielinq' ),
+			'use_featured_image'    => __( 'Use as featured image', 'energielinq' ),
+			'insert_into_item'      => __( 'Insert into link', 'energielinq' ),
+			'uploaded_to_this_item' => __( 'Uploaded to this link', 'energielinq' ),
+			'items_list'            => __( 'Links list', 'energielinq' ),
+			'items_list_navigation' => __( 'Links list navigation', 'energielinq' ),
+			'filter_items_list'     => __( 'Filter links list', 'energielinq' ),
+		);
+		$args = array(
+			'label'                 => __( 'Link', 'energielinq' ),
+			'labels'                => $labels,
+			'supports'              => array( 'title', 'editor', 'thumbnail' ),
+			'taxonomies'            => array( 'dossier' ),
+			'hierarchical'          => false,
+			'public'                => true,
+			'show_ui'               => true,
+			'show_in_menu'          => true,
+			'menu_position'         => 5,
+			'menu_icon'             => 'dashicons-admin-links',
+			'show_in_admin_bar'     => true,
+			'show_in_nav_menus'     => true,
+			'can_export'            => true,
+			'has_archive'           => true,
+			'exclude_from_search'   => false,
+			'publicly_queryable'    => true,
+			'capability_type'       => 'page',
+			'show_in_rest'          => true,
+		);
+		register_post_type( 'link', $args );
+	
+	}
+	add_action( 'init', 'cpt_link', 0 );
+	
+}

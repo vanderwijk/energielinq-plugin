@@ -143,7 +143,7 @@ if ( ! function_exists( 'tax_dossier' ) ) {
 			'rewrite'                    => $rewrite,
 			'show_in_rest'               => true,
 		);
-		register_taxonomy( 'dossier', array( 'post', 'project' ), $args );
+		register_taxonomy( 'dossier', array( 'post', 'project', 'link' ), $args );
 	
 	}
 	add_action( 'init', 'tax_dossier', 0 );

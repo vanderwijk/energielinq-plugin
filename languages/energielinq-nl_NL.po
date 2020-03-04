@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Energielinq Plugin\n"
-"POT-Creation-Date: 2020-03-01 17:38+0100\n"
-"PO-Revision-Date: 2020-03-01 17:40+0100\n"
+"POT-Creation-Date: 2020-03-04 10:55+0100\n"
+"PO-Revision-Date: 2020-03-04 10:57+0100\n"
 "Last-Translator: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language-Team: Johan van der Wijk <johan@vanderwijk.nl>\n"
 "Language: nl_NL\n"
@@ -59,7 +59,7 @@ msgstr "Alle experts"
 msgid "Add New Expert"
 msgstr "Nieuwe expert toevoegen"
 
-#: custom-post-types.php:18 custom-post-types.php:79
+#: custom-post-types.php:18 custom-post-types.php:79 custom-post-types.php:141
 msgid "Add New"
 msgstr "Nieuwe toevoegen"
 
@@ -87,27 +87,27 @@ msgstr "Bekijk experts"
 msgid "Search Expert"
 msgstr "Zoek expert"
 
-#: custom-post-types.php:25 custom-post-types.php:86
+#: custom-post-types.php:25 custom-post-types.php:86 custom-post-types.php:148
 msgid "Not found"
 msgstr "Niet gevonden"
 
-#: custom-post-types.php:26 custom-post-types.php:87
+#: custom-post-types.php:26 custom-post-types.php:87 custom-post-types.php:149
 msgid "Not found in Trash"
 msgstr "Niet gevonden in de prullenbak"
 
-#: custom-post-types.php:27 custom-post-types.php:88
+#: custom-post-types.php:27 custom-post-types.php:88 custom-post-types.php:150
 msgid "Featured Image"
 msgstr "Uitgelichte afbeelding"
 
-#: custom-post-types.php:28 custom-post-types.php:89
+#: custom-post-types.php:28 custom-post-types.php:89 custom-post-types.php:151
 msgid "Set featured image"
 msgstr "Uitgelichte afbeelding instellen"
 
-#: custom-post-types.php:29 custom-post-types.php:90
+#: custom-post-types.php:29 custom-post-types.php:90 custom-post-types.php:152
 msgid "Remove featured image"
 msgstr "Verwijder uitgelichte afbeelding"
 
-#: custom-post-types.php:30 custom-post-types.php:91
+#: custom-post-types.php:30 custom-post-types.php:91 custom-post-types.php:153
 msgid "Use as featured image"
 msgstr "Gebruik als uitgelichte afbeelding"
 
@@ -212,6 +212,88 @@ msgstr "Projectlijst navigatie"
 #: custom-post-types.php:96
 msgid "Filter projects list"
 msgstr "Filter projecten lijst"
+
+#: custom-post-types.php:132
+msgctxt "Post Type General Name"
+msgid "Links"
+msgstr "Links"
+
+#: custom-post-types.php:133
+msgctxt "Post Type Singular Name"
+msgid "Link"
+msgstr "Link"
+
+#: custom-post-types.php:134
+msgid "Links"
+msgstr "Links"
+
+#: custom-post-types.php:135 custom-post-types.php:161
+msgid "Link"
+msgstr "Link"
+
+#: custom-post-types.php:136
+msgid "Link Archives"
+msgstr "Link archieven"
+
+#: custom-post-types.php:137
+msgid "Link Attributes"
+msgstr "Link attributen"
+
+#: custom-post-types.php:138
+msgid "Parent Link:"
+msgstr "Bovenliggende link:"
+
+#: custom-post-types.php:139
+msgid "All Links"
+msgstr "Alle links"
+
+#: custom-post-types.php:140
+msgid "Add New Link"
+msgstr "Nieuwe link toevoegen"
+
+#: custom-post-types.php:142
+msgid "New Link"
+msgstr "Nieuwe link"
+
+#: custom-post-types.php:143
+msgid "Edit Link"
+msgstr "Link bewerken"
+
+#: custom-post-types.php:144
+msgid "Update Link"
+msgstr "Link bijwerken"
+
+#: custom-post-types.php:145
+msgid "View Link"
+msgstr "Bekijk link"
+
+#: custom-post-types.php:146
+msgid "View Links"
+msgstr "Bekijk links"
+
+#: custom-post-types.php:147
+msgid "Search Link"
+msgstr "Doorzoek links"
+
+#: custom-post-types.php:154
+msgid "Insert into link"
+msgstr "Invoegen in link"
+
+#: custom-post-types.php:155
+msgid "Uploaded to this link"
+msgstr "Geüpload naar deze link"
+
+#: custom-post-types.php:156
+msgid "Links list"
+msgstr "Lijst met links"
+
+#: custom-post-types.php:157
+msgid "Links list navigation"
+msgstr "Linklijst navigatie"
+
+#: custom-post-types.php:158
+msgid "Filter links list"
+msgstr "Filter linklijst"
 
 #: custom-taxonomies.php:9
 msgctxt "Taxonomy General Name"

@@ -136,7 +136,7 @@ if ( ! function_exists( 'tax_dossier' ) ) {
 			'labels'                     => $labels,
 			'hierarchical'               => true,
 			'public'                     => true,
-			'show_ui'                    => true,
+			'show_ui'                    => false,
 			'show_admin_column'          => true,
 			'show_in_nav_menus'          => true,
 			'show_tagcloud'              => true,

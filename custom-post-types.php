@@ -114,6 +114,7 @@ if ( ! function_exists('cpt_project') ) {
 			'publicly_queryable'    => true,
 			'capability_type'       => 'page',
 			'show_in_rest'          => true,
+			'rewrite'               => array( 'slug' => __('nom-projects', 'energielinq') )
 		);
 		register_post_type( 'project', $args );
 	
